@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <script defer type="module" src="/js/home.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img class="userImg" src="/img/image 4.png" alt="">
+            <figcaption>Gatinho fofo</figcaption>
+        </figure>
+        <button>Logout</button>
+    </header>
+    <main>
+        <form>
+            <textarea name="post"  maxlength="144" placeholder="No que está pensando?"></textarea>
+            <img id="postMobile" src="/img/+.png" alt="">
+            <span id="postDesktop">Postar</span>
+        </form>
+        <article>
+            <!-- <section class="sectionMobile">
+                <img class="imgUser" src="/img/image 4.png" alt="">
+                <h2>Gatinho fofo</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum nemo neque, eos repellendus non beatae asperiores quos dicta ipsam aspernatur nobis cupiditate omnis. Recusandae alias eveniet, voluptas nisi eligendi sapiente!</p>
+                <p>22/08/2022</p>
+                <div>
+                    <img class="icon iconEdit" src="/img/edit 1.png" alt="">
+                    <img class="icon iconDelete" src="/img/trash-bin 1.png" alt="">
+                </div>
+            </section>
+            <section class="sectionDesktop">
+                <div>
+                    <img class="imgUser" src="/img/image 4.png" alt="">
+                    <div class="icones">
+                        <img class="icon iconEdit" src="/img/edit 1.png" alt="">
+                        <img class="icon iconDelete" src="/img/trash-bin 1.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <h2>Gatinho fofo</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum nemo neque, eos repellendus non beatae asperiores quos dicta ipsam aspernatur nobis cupiditate omnis. Recusandae alias eveniet, voluptas nisi eligendi sapiente!</p>
+                </div>
+                <p id="data">22/08/2022</p>
+            </section> -->
+        </article>
+        <div class="modalEdit hidden">
+            <form class="bodyModal">
+                <h3>Editar</h3>
+                <textarea name="editPost" id="editPost" maxlength="144"
+                    placeholder="Estou mudando meu comentário"></textarea>
+                <button id="editPostBtn" type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="modalDelete hidden">
+            <form class="bodyModal">
+                <h3>Deseja deletar esse post?</h3>
+            <button id="deletePostBtn" type="submit">Deletar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
