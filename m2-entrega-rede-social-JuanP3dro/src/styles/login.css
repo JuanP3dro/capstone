@@ -1,0 +1,117 @@
+/* *{
+    outline: 1px red dotted;
+} */
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: #212529;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    height: 9vh;
+    width: 90%;
+    background-color: #212529;
+    justify-content: space-between;
+    align-items: center;
+}
+.login {
+    display: flex;
+    gap: 5px;
+}
+.logo {
+    height: 20px;
+}
+#btnRegistro {
+    color: white;
+    background-color: #212529;
+    cursor: pointer;
+}
+#loginBtn {
+    color: white;
+    background-color: #495057;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: #DEE2E6;
+    position: relative;
+}
+section {
+    width: 80%;
+    max-width: 500px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    background-color: white;
+    /* background-color: #212529; */
+}
+h1 {
+    width: 80%;
+    color: #212529;
+    font-weight: 700;
+    font-size: 28px;
+}
+#btnVoltar {
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+input {
+    height: 30px;
+    width: 80%;
+}
+#btnLogar {
+    background-color: #4263EB;
+    color: white;
+    width: 80%;
+    height: 30px;
+}
+
+#btnPagCadastro {
+    background-color: white;
+    color: #212529;
+    border: 1px solid #212529;
+    width: 80%;
+    font-size: 14px;
+    height: 30px;
+    cursor:pointer;
+}
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: #00000090;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.modal-content {
+    background-color: #4263EB;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+h3 {
+    color: white;
+}

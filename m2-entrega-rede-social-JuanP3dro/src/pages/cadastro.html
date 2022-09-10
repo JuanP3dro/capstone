@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/cadastro.css">
+    <script defer type="module" src="/src/scripts/cadastro.js"></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="/src/assets/TechPosters.png" alt="">
+            <div class="login">
+                <button id="loginBtn">Login</button>
+                <button id="btnRegistro">Registro</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container__section">
+                <div class="signupTitle">
+                    <h1>Cadastro</h1>
+                    <button id="btnVoltar">Voltar</button>
+                </div>
+                <form>
+                    <input type="text" id="nome" placeholder='Seu nome'>
+                    <input type="email" id="email" placeholder="Seu email">
+                    <input type="password" id="senha" placeholder="Sua senha">
+                    <input type="text" id="trabalho" placeholder='Qual o seu trabalho?'>
+                    <input type="text" id="perfil" placeholder='URL da imagem de perfil'>
+                    <button id="btnRegistrar">Registrar</button>
+                </form>
+                <p>Já possui login?</p>
+                <button id="btnPagLogin">Ir para a página de login</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

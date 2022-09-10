@@ -1,0 +1,108 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: #212529;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    height: 9vh;
+    width: 90%;
+    background-color: #212529;
+    justify-content: space-between;
+    align-items: center;
+}
+.login {
+    display: flex;
+}
+.logo {
+    height: 20px;
+}
+#btnRegistro {
+    color: white;
+    background-color: #495057;
+}
+#loginBtn {
+    color: white;
+    background-color: #212529;
+    cursor: pointer;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: #DEE2E6;
+}
+section {
+    width: 80%;
+    max-width: 500px;
+    height: 70%;
+    display:flex ;
+    justify-content: center;
+    background-color: white;
+    /* background-color: #212529; */
+}
+.container__section {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+.signupTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+h1 {
+    width: 70px;
+    color: #212529;
+    font-weight: 700;
+    font-size: 28px;
+}
+#btnVoltar {
+    background-color: white;
+    color: #212529;
+    border: 1px solid #212529;
+    width: 60px;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    width: 100%;
+    /* gap: 10px; */
+}
+input {
+    width: 100%;
+    height: 30px;
+}
+#btnRegistrar {
+    background-color: #4263EB;
+    color: white;
+    width: 100%;
+    height: 30px;
+}
+
+#btnPagLogin {
+    background-color: white;
+    color: #212529;
+    border: 1px solid #212529;
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    cursor: pointer;
+}
+
